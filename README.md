@@ -6,14 +6,18 @@ WHMCS plugin is a provisioning module which creates a **DomainAdmin** user accor
 
 The plugin files are contained in the ZIP file `mailcheap-v1.1.zip`.
 
-### Install WHMCS plugin
+---
+
+## Install WHMCS plugin
 
 - Unzip the WHMCS plugin.
 - Upload `modules/servers/mailcheap` directory to your whmcs install `modules/servers/` folder.
 - Set the correct permissions for the above uploaded folder and its subfolders/files.
 - Your directory structure should now look like this `../your-whmcs-install-folder/modules/servers/mailcheap/..`
 
-### Setup server in WHMCS
+---
+
+## Setup server in WHMCS
 
 Step 1. From your WHMCS admin portal > navigate to _Setup_ (menu bar) > Products/Services > Servers.
 
@@ -40,7 +44,9 @@ Step 5. Press the red _Test Connection_ button, it should show green "SUCCESSFUL
 
 Step 6. Click _Save Changes_ button.
 
-### Setup product in WHMCS
+---
+
+## Setup product in WHMCS
 
 Step 1. From your WHMCS admin portal > navigate to _Setup_ (menu bar) > Products/Services > Products/Services > Create a New Product > follow on-screen instructions.
 
@@ -54,7 +60,9 @@ Step 5. Check (enable) the option _Automatically setup the product when you manu
 
 Step 6. Click _Save Changes_ button.
 
-### Setup product welcome email
+---
+
+## Setup product welcome email
 
 Set up a welcome email template for your product/plan in WHMCS. This welcome email will be sent to your client (end-user) upon product activation and will include login details and other information for them to get started with their hosted email plan.
 
