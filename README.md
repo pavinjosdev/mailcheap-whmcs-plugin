@@ -1,4 +1,4 @@
-## WHMCS plugin (deprecated)
+# WHMCS plugin (deprecated)
 
 WHMCS is an all-in-one client management, billing & support solution for online businesses (not included). Paired with Mailcheap's WHMCS plugin, you can automatically provision end-user accounts (for your clients) based on storage and number of domains/mailboxes/domain aliases/mailbox aliases.
 
